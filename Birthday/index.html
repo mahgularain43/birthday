@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="scene active" id="loadingScene">
+    <div class="scene-card">
+      <img src="assets/dance.gif" class="character bounce" alt="birthday character">
+      <h1>LETS PARTY BESTIE</h1>
+      <p>loading tiny chaos...</p>
+    </div>
+  </section>
+
+  <section class="scene" id="vaultScene">
+    <div class="scene-card">
+      <h2>your birthday vault is ready</h2>
+
+      <img src="assets/cake.gif" class="cake" alt="birthday cake">
+
+      <button class="vault-btn" id="openVault">
+        <span>💌</span>
+        <strong>open<br>vault</strong>
+      </button>
+    </div>
+  </section>
+
+  <section class="scene" id="countScene">
+    <div class="scene-card count-card">
+      <p class="small-text">birthday magic begins in</p>
+      <div class="big-count" id="countNumber">5</div>
+      <p>get ready...</p>
+    </div>
+  </section>
+
+  <section class="scene" id="birthdayScene">
+    <div class="scene-card party-card">
+      <img src="assets/cheeky.gif" class="character dance" alt="dancing character">
+
+      <h1 class="birthday-title">happy birthday</h1>
+      <h2>you cheeky thang 💗</h2>
+
+      <button class="main-btn" id="nextBtn">
+        open your surprise 💌
+      </button>
+    </div>
+  </section>
+
+  <section class="scene letter-scene" id="letterScene">
+  <div class="desk">
+    <img src="assets/cakeee.gif" class="asset-envelope" id="envelopeAsset" alt="envelope">
+
+    <div class="paper-sheet" id="paperSheet">
+      <h3>hey you,</h3>
+      <p id="typedLetter"></p>
+    </div>
+
+   
+
+
+    <button class="main-btn next-party-btn" id="partyBtn">
+      one more thing... 💗
+    </button>
+  </div>
+</section>
+
+<section class="scene final-party-scene" id="finalScene">
+  <div class="scene-card">
+    <img src="assets/pop.gif" class="character dance" alt="party gif">
+    <h1 class="birthday-title">go party hard</h1>
+    <p>eat cake, take pictures, and enjoy every tiny bit of today.</p>
+    <h2>you are so loved 💐</h2>
+  </div>
+</section>
+
+  <audio id="popSound" src="https://assets.mixkit.co/active_storage/sfx/2013/2013-preview.mp3"></audio>
+  <audio id="partyMusic" src="assets/pop-song.mp3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
