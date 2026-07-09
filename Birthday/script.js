@@ -140,7 +140,7 @@ keep being your wonderful, cheeky self.
 
 the world is lucky to have you in it.
 
-happy birthday 💗`;
+happy birthday sadaf x sadu x sidra 💗`;
 
   const typedLetter = document.getElementById("typedLetter");
   typedLetter.textContent = "";
